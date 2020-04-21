@@ -3,7 +3,6 @@ package com.github.jdsjlzx.view;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.Color;
-import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -15,6 +14,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import androidx.core.content.ContextCompat;
 
 import com.github.jdsjlzx.R;
 import com.github.jdsjlzx.interfaces.IRefreshHeader;

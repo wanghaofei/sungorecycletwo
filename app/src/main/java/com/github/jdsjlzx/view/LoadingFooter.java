@@ -1,7 +1,6 @@
 package com.github.jdsjlzx.view;
 
 import android.content.Context;
-import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
@@ -10,6 +9,8 @@ import android.view.ViewStub;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import androidx.core.content.ContextCompat;
 
 import com.github.jdsjlzx.R;
 import com.github.jdsjlzx.interfaces.ILoadMoreFooter;
